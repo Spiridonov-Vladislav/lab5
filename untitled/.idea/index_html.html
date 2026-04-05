@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Спрайт папки</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="row">
+    <h1>Общий спрайт</h1>
+    <img src="image/spriteONE.png">
+    <img src="image/spriteONE.png"
+         onclick="this.src.includes('ONE') ? this.src='image/spriteTWO.png' :
+              this.src.includes('TWO') ? this.src='image/spriteTHREE.png' :
+              this.src.includes('THREE') ? this.src='image/spriteFOUR.png' :
+              this.src='image/spriteONE.png'">
+</div>
+
+<div class="row">
+    <h1>Закрытая / Открытая папка</h1>
+    <img src="image/sprite2.png">
+    <img src="image/spriteONE.png"
+         onclick="this.src = this.src.includes('ONE') ? 'image/spriteTWO.png' : 'image/spriteONE.png'">
+</div>
+
+<div class="row">
+    <h1>Открытая папка / Добавить в избранное</h1>
+    <img src="image/sprite3.png">
+    <img src="image/spriteTWO.png"
+         onclick="this.src = this.src.includes('spriteTWO') ? 'image/spriteTHREE.png' : 'image/spriteTWO.png'">
+</div>
+
+
+<div class="row">
+    <h1>Открытая папка / Помечаная на удаление</h1>
+    <img src="image/sprite4.png">
+    <img src="image/spriteTWO.png"
+         onclick="this.src = this.src.includes('spriteTWO') ? 'image/spriteFOUR.png' : 'image/spriteTWO.png'">
+</div>
+</body>
+</html>

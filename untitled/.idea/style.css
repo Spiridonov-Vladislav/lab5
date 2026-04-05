@@ -1,0 +1,15 @@
+
+.row:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+.row:nth-child(odd)  {
+    background-color: #ffffff;
+}
+
+.row {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+

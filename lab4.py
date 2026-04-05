@@ -131,7 +131,11 @@ with open("lab4.txt", "w") as f:
     else:
         print("Данные для записи пропущены")
 
+
 print("Изменена в master")                
+print("Добавлен git")
+                
+
     
     
 

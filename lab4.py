@@ -130,7 +130,8 @@ with open("lab4.txt", "w") as f:
             print(f"Произошла ошибка при записи: {e}")
     else:
         print("Данные для записи пропущены")
-                
+
+print("Изменена в master")                
     
     
 

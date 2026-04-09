@@ -25,7 +25,7 @@ class GameSession(Model):
 db.connect()
 db.create_tables([Player, GameSession])
 
-bot = telebot.TeleBot("8659583696:AAFpyHtFKxC_CV7XHKOZHQp9bhq5yfI0ieU")
+bot = telebot.TeleBot("TOKEN")
 
 @bot.message_handler(commands=['help'])
 def help(message):
